@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CaiJiViewController">
+            <connections>
+                <outlet property="caijiBtn" destination="HG3-WA-F2f" id="2ru-XR-h3P"/>
+                <outlet property="chexiaoBtn" destination="BWi-su-Tgd" id="XCb-pX-cc9"/>
+                <outlet property="clearBtn" destination="SPl-wL-OyG" id="zcZ-MZ-zKR"/>
+                <outlet property="mapView" destination="fQs-pJ-YFM" id="27T-zZ-QbA"/>
+                <outlet property="saveBtn" destination="qZN-Dz-DGD" id="3Cv-UQ-0CC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fQs-pJ-YFM" customClass="BMKMapView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BWi-su-Tgd">
+                    <rect key="frame" x="100" y="616" width="83.5" height="43"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="7nB-Oq-lqB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="撤销">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="chexiaoAction:" destination="-1" eventType="touchUpInside" id="eQQ-n6-pAg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SPl-wL-OyG">
+                    <rect key="frame" x="191.5" y="616" width="84" height="43"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="brR-EW-vA9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="清空">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="clearAction:" destination="-1" eventType="touchUpInside" id="sSG-Lp-1UZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HG3-WA-F2f">
+                    <rect key="frame" x="8" y="616" width="84" height="43"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="pJ1-tA-0xi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="GPS采集">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="GPS:" destination="-1" eventType="touchUpInside" id="bjH-o4-s0o"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qZN-Dz-DGD">
+                    <rect key="frame" x="283.5" y="616" width="83.5" height="43"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="43" id="xX9-Lo-fuB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="保存">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="saveAction:" destination="-1" eventType="touchUpInside" id="nwa-qR-bf7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="SPl-wL-OyG" secondAttribute="bottom" constant="8" id="Ero-dj-aqT"/>
+                <constraint firstItem="SPl-wL-OyG" firstAttribute="leading" secondItem="BWi-su-Tgd" secondAttribute="trailing" constant="8" id="KVz-ah-r1c"/>
+                <constraint firstAttribute="bottom" secondItem="BWi-su-Tgd" secondAttribute="bottom" constant="8" id="Ki8-nz-FmL"/>
+                <constraint firstItem="qZN-Dz-DGD" firstAttribute="leading" secondItem="SPl-wL-OyG" secondAttribute="trailing" constant="8" id="TZM-mT-iKb"/>
+                <constraint firstAttribute="bottom" secondItem="qZN-Dz-DGD" secondAttribute="bottom" constant="8" id="WG5-yr-HA0"/>
+                <constraint firstItem="HG3-WA-F2f" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="bsa-4U-lu3"/>
+                <constraint firstAttribute="trailing" secondItem="qZN-Dz-DGD" secondAttribute="trailing" constant="8" id="d6c-CL-ssS"/>
+                <constraint firstItem="qZN-Dz-DGD" firstAttribute="width" secondItem="HG3-WA-F2f" secondAttribute="width" id="dWo-dP-yAk"/>
+                <constraint firstAttribute="bottom" secondItem="HG3-WA-F2f" secondAttribute="bottom" constant="8" id="hxV-Rr-rD0"/>
+                <constraint firstItem="BWi-su-Tgd" firstAttribute="width" secondItem="HG3-WA-F2f" secondAttribute="width" id="iwv-Ma-u1Z"/>
+                <constraint firstItem="SPl-wL-OyG" firstAttribute="width" secondItem="HG3-WA-F2f" secondAttribute="width" id="jAq-FZ-cqp"/>
+                <constraint firstItem="BWi-su-Tgd" firstAttribute="leading" secondItem="HG3-WA-F2f" secondAttribute="trailing" constant="8" id="p7j-MT-IYe"/>
+                <constraint firstItem="BWi-su-Tgd" firstAttribute="leading" secondItem="HG3-WA-F2f" secondAttribute="trailing" constant="8" id="qAQ-v5-W3k"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

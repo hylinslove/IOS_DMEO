@@ -1,0 +1,15 @@
+//
+//  TaskViewController.h
+//  landExamination
+//
+//  Created by xianglong on 2017/9/27.
+//  Copyright © 2017年 Chinastis. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface TaskViewController : UIViewController
+
+@property (assign,nonatomic) NSInteger taskType;
+
+@end

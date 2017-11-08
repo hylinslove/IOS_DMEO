@@ -1,0 +1,126 @@
+
+/* Class = "UILabel"; text = "用地面积"; ObjectID = "0ym-Tr-Orc"; */
+"0ym-Tr-Orc.text" = "用地面积";
+
+/* Class = "UILabel"; text = "问题编号"; ObjectID = "0zf-ZS-XX7"; */
+"0zf-ZS-XX7.text" = "问题编号";
+
+/* Class = "UIButton"; normalTitle = "问题导航"; ObjectID = "1BM-ue-XeC"; */
+"1BM-ue-XeC.normalTitle" = "问题导航";
+
+/* Class = "UILabel"; text = "政区名称"; ObjectID = "7m6-KQ-jgd"; */
+"7m6-KQ-jgd.text" = "政区名称";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "8ac-5A-2vg"; */
+"8ac-5A-2vg.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "批准文号"; ObjectID = "8ed-vE-K4B"; */
+"8ed-vE-K4B.text" = "批准文号";
+
+/* Class = "UIButton"; normalTitle = "查询"; ObjectID = "Au2-1c-vFx"; */
+"Au2-1c-vFx.normalTitle" = "查询";
+
+/* Class = "UILabel"; text = "图斑编号"; ObjectID = "Dxp-xS-49P"; */
+"Dxp-xS-49P.text" = "图斑编号";
+
+/* Class = "UILabel"; text = "用地单位"; ObjectID = "Ej8-Es-oZU"; */
+"Ej8-Es-oZU.text" = "用地单位";
+
+/* Class = "UILabel"; text = "整改情况："; ObjectID = "FN6-HH-5dm"; */
+"FN6-HH-5dm.text" = "整改情况：";
+
+/* Class = "UILabel"; text = "国家土地督察南京局\n督察发现问题实地核查子系统"; ObjectID = "GFH-im-J4b"; */
+"GFH-im-J4b.text" = "国家土地督察南京局\n督察发现问题实地核查子系统";
+
+/* Class = "UIButton"; normalTitle = "笔"; ObjectID = "JYA-Yc-MwR"; */
+"JYA-Yc-MwR.normalTitle" = "笔";
+
+/* Class = "UIBarButtonItem"; title = "保存"; ObjectID = "Jwx-eg-kTK"; */
+"Jwx-eg-kTK.title" = "保存";
+
+/* Class = "UIButton"; normalTitle = "Gps采集"; ObjectID = "PhG-cU-IiX"; */
+"PhG-cU-IiX.normalTitle" = "Gps采集";
+
+/* Class = "UIButton"; normalTitle = "清空"; ObjectID = "QY5-NO-UIS"; */
+"QY5-NO-UIS.normalTitle" = "清空";
+
+/* Class = "UILabel"; text = "土地坐落"; ObjectID = "Rpn-YF-woq"; */
+"Rpn-YF-woq.text" = "土地坐落";
+
+/* Class = "UIButton"; normalTitle = "已回传"; ObjectID = "Sey-CA-c9I"; */
+"Sey-CA-c9I.normalTitle" = "已回传";
+
+/* Class = "UIButton"; normalTitle = "问题核查"; ObjectID = "W6d-TO-lgX"; */
+"W6d-TO-lgX.normalTitle" = "问题核查";
+
+/* Class = "UIButton"; normalTitle = "采集"; ObjectID = "Y9d-Lb-Xco"; */
+"Y9d-Lb-Xco.normalTitle" = "采集";
+
+/* Class = "UILabel"; text = "核查状态"; ObjectID = "YbP-Et-L4E"; */
+"YbP-Et-L4E.text" = "核查状态";
+
+/* Class = "UILabel"; text = "地块编号"; ObjectID = "aBN-7O-qfS"; */
+"aBN-7O-qfS.text" = "地块编号";
+
+/* Class = "UITextField"; placeholder = "输入用户名"; ObjectID = "aIO-rD-13z"; */
+"aIO-rD-13z.placeholder" = "输入用户名";
+
+/* Class = "UITextField"; text = "320102"; ObjectID = "aIO-rD-13z"; */
+"aIO-rD-13z.text" = "320102";
+
+/* Class = "UILabel"; text = "问题年度"; ObjectID = "aSb-L1-dRO"; */
+"aSb-L1-dRO.text" = "问题年度";
+
+/* Class = "UIButton"; normalTitle = "撤销"; ObjectID = "c1C-mK-WhQ"; */
+"c1C-mK-WhQ.normalTitle" = "撤销";
+
+/* Class = "UILabel"; text = "问题类型"; ObjectID = "c82-UF-ZLQ"; */
+"c82-UF-ZLQ.text" = "问题类型";
+
+/* Class = "UILabel"; text = "项目名称"; ObjectID = "eoF-mu-eVB"; */
+"eoF-mu-eVB.text" = "项目名称";
+
+/* Class = "UIButton"; normalTitle = "尺"; ObjectID = "gJm-2i-7eU"; */
+"gJm-2i-7eU.normalTitle" = "尺";
+
+/* Class = "UITextField"; placeholder = "输入密码"; ObjectID = "gRd-ET-dHE"; */
+"gRd-ET-dHE.placeholder" = "输入密码";
+
+/* Class = "UITextField"; text = "a"; ObjectID = "gRd-ET-dHE"; */
+"gRd-ET-dHE.text" = "a";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "k61-hd-g53"; */
+"k61-hd-g53.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "核查人员："; ObjectID = "lFZ-Rw-5fB"; */
+"lFZ-Rw-5fB.text" = "核查人员：";
+
+/* Class = "UIButton"; normalTitle = "拍照"; ObjectID = "lar-Uo-FMy"; */
+"lar-Uo-FMy.normalTitle" = "拍照";
+
+/* Class = "UITextField"; placeholder = "请输入查询内容"; ObjectID = "ocP-Rk-VcY"; */
+"ocP-Rk-VcY.placeholder" = "请输入查询内容";
+
+/* Class = "UINavigationItem"; title = "GPS采集"; ObjectID = "pe1-O4-yVU"; */
+"pe1-O4-yVU.title" = "GPS采集";
+
+/* Class = "UIButton"; normalTitle = "重做"; ObjectID = "pzw-zj-eCT"; */
+"pzw-zj-eCT.normalTitle" = "重做";
+
+/* Class = "UILabel"; text = "土地证号"; ObjectID = "qAk-0u-w3h"; */
+"qAk-0u-w3h.text" = "土地证号";
+
+/* Class = "UIButton"; normalTitle = "已核查"; ObjectID = "qqz-Kw-S0d"; */
+"qqz-Kw-S0d.normalTitle" = "已核查";
+
+/* Class = "UIButton"; normalTitle = "问题定位"; ObjectID = "s7B-yC-3lB"; */
+"s7B-yC-3lB.normalTitle" = "问题定位";
+
+/* Class = "UILabel"; text = "核查日期："; ObjectID = "teW-yu-z40"; */
+"teW-yu-z40.text" = "核查日期：";
+
+/* Class = "UIButton"; normalTitle = "待核查"; ObjectID = "ubF-sS-9JG"; */
+"ubF-sS-9JG.normalTitle" = "待核查";
+
+/* Class = "UIViewController"; title = "Gps采集"; ObjectID = "xto-lO-d2S"; */
+"xto-lO-d2S.title" = "Gps采集";

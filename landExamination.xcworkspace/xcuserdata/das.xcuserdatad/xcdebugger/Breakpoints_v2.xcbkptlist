@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "landExamination/ServiceManager.m"
+            timestampString = "513676846.808128"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "-uploadTaskWithGuid:progress:success:failure:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ServiceManager uploadTaskWithGuid:progress:success:failure:]"
+                  moduleName = "landExamination"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/das/Desktop/landExamination%E7%9A%84%E5%89%AF%E6%9C%AC/landExamination/ServiceManager.m"
+                  timestampString = "513677247.654637"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__62-[ServiceManager uploadTaskWithGuid:progress:success:failure:]_block_invoke"
+                  moduleName = "landExamination"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/das/Desktop/landExamination%E7%9A%84%E5%89%AF%E6%9C%AC/landExamination/ServiceManager.m"
+                  timestampString = "513677247.657031"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "211"
+                  endingLineNumber = "211"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
